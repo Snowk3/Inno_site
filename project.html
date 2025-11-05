@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-T">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Proyecto - SUVP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Plataforma Innovación</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Resumen General (A1)</a></li>
+                <li><a href="#">(Login)</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        
+        <header class="project-header">
+            <h1 id="project-title">Cargando proyecto...</h1>
+            <div class="project-meta">
+                <span><strong>Líder:</strong> <span id="project-leader">...</span></span>
+                <span><strong>Estado:</strong> <span id="project-status" class="status-badge">...</span></span>
+            </div>
+        </header>
+        
+        <p id="project-description">Cargando descripción...</p>
+
+        <section class="accordion-container">
+
+            <div class="accordion-item">
+                <button class="accordion-toggle">
+                    A2.1. Etapa Identificación de Ideas
+                    <span class="toggle-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p>Información estructurada sobre la identificación del problema, oportunidad y alcance inicial.</p>
+                    <form class="structured-form">
+                        <div class="form-group">
+                            <label for="a2.1-problema">Problema Detectado:</label>
+                            <textarea id="a2.1-problema" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="a2.1-objetivo">Objetivo de la Idea:</label>
+                            <textarea id="a2.1-objetivo" rows="2"></textarea>
+                        </div>
+                    </form>
+                    <a href="/templates/plantilla-A2.1.docx" class="btn btn-download" download>Descargar Plantilla A2.1</a>
+                    <button class="btn btn-primary">Guardar Etapa</button>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-toggle">
+                    A2.2. Diseño
+                    <span class="toggle-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p>Diseño de la solución, hipótesis, métricas de éxito y arquitectura inicial.</p>
+                    <form class="structured-form">
+                        <div class="form-group">
+                            <label for="a2.2-hipotesis">Hipótesis a Validar:</label>
+                            <textarea id="a2.2-hipotesis" rows="3"></textarea>
+                        </div>
+                    </form>
+                    <a href="/templates/plantilla-A2.2.docx" class="btn btn-download" download>Descargar Plantilla A2.2</a>
+                    <button class="btn btn-primary">Guardar Etapa</button>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-toggle">
+                    A2.3. Prototipo
+                    <span class="toggle-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p>Construcción del Producto Mínimo Viable (MVP) o prototipo funcional.</p>
+                    <a href="/templates/plantilla-A2.3.docx" class="btn btn-download" download>Descargar Plantilla A2.3</a>
+                    <button class="btn btn-primary">Guardar Etapa</button>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-toggle">
+                    A2.4. Testeo y Ajuste
+                    <span class="toggle-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p>Pruebas con usuarios reales, recolección de feedback y ajustes al prototipo.</p>
+                    <a href="/templates/plantilla-A2.4.docx" class="btn btn-download" download>Descargar Plantilla A2.4</a>
+                    <button class="btn btn-primary">Guardar Etapa</button>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-toggle">
+                    A2.5. Prototipo (Versión 2 / Piloto)
+                    <span class="toggle-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p>Segunda iteración del prototipo basada en el testeo, o implementación de un piloto controlado.</p>
+                    <a href="/templates/plantilla-A2.5.docx" class="btn btn-download" download>Descargar Plantilla A2.5</a>
+                    <button class="btn btn-primary">Guardar Etapa</button>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <button class="accordion-toggle">
+                    A2.6. Implementación
+                    <span class="toggle-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p>Despliegue de la solución final a producción y plan de escalamiento.</p>
+                    <a href="/templates/plantilla-A2.6.docx" class="btn btn-download" download>Descargar Plantilla A2.6</a>
+                    <button class="btn btn-primary">Guardar Etapa</button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
